@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maybach — Mercedes-Benz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">★ Mercedes-Benz</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="historie.html">Historie</a></li>
+      <li><a href="modely.html">Modely</a></li>
+      <li><a href="technologie.html">Technologie</a></li>
+      <li><a href="amg.html">AMG</a></li>
+      <li><a href="maybach.html" class="active">Maybach</a></li>
+      <li><a href="elektro.html">Elektro</a></li>
+      <li><a href="fakta.html">Fakta</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"       onclick="closeMenu()">Úvod</a>
+    <a href="historie.html"    onclick="closeMenu()">Historie</a>
+    <a href="modely.html"      onclick="closeMenu()">Modely</a>
+    <a href="technologie.html" onclick="closeMenu()">Technologie</a>
+    <a href="amg.html"         onclick="closeMenu()">AMG</a>
+    <a href="maybach.html"     onclick="closeMenu()">Maybach</a>
+    <a href="elektro.html"     onclick="closeMenu()">Elektro</a>
+    <a href="fakta.html"       onclick="closeMenu()">Fakta</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Mercedes-Maybach <span class="badge badge-maybach">Ultra Luxury</span></h1>
+  <p>Tam, kde luxus nemá hranice. Vozidla pro ty, kteří odmítají jakékoliv kompromisy.</p>
+</div>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Historie Maybach</h2>
+    <p class="section-subtitle">Od závodního konstruktéra po ultra-luxusní automobily</p>
+
+    <div class="maybach-header">
+      <h3>Maybach</h3>
+      <p>„Šampion pro šampiony" — automobil pro ty, kteří odmítají kompromisy v čemkoliv.</p>
+    </div>
+
+    <p>Wilhelm Maybach byl geniální konstruktér, který pracoval po boku Gottlieba Daimlera. Navrhl první Daimler motor, první Mercedes a jeho syn Karl pokračoval v odkazu otce. Po jeho odchodu z Daimler-Motoren-Gesellschaft založili se synem vlastní firmu — Maybach-Motorenbau GmbH v roce 1909 ve Friedrichshafenu.</p>
+
+    <p>Vozidla Maybach z 20. a 30. let patřila mezi nejluxusnější automobily světa. Zákazníci byli movití podnikatelé, šlechtici a hlavy států. Každý vůz byl stavěn přesně na míru — délka karoserie, materiály, barva i výbava podle přání zákazníka.</p>
+
+    <p>Po druhé světové válce výroba aut skončila a firma přešla na výrobu průmyslových motorů a později na lokomotivní motory pod hlavičkou MTU Friedrichshafen.</p>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-year">1909</div>
+        <div class="tl-heading">Vznik Maybach-Motorenbau GmbH</div>
+        <div class="tl-text">Wilhelm Maybach a jeho syn Karl zakládají firmu ve Friedrichshafenu. Zpočátku vyrábí motory pro vzducholodě Zeppelin.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">1921</div>
+        <div class="tl-heading">První osobní automobil Maybach</div>
+        <div class="tl-text">Na autosalonu v Paříži je představen první osobní automobil značky Maybach. Šesticilindrový motor, luxusní karoserie, okamžitý úspěch u bohaté klientely.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">1930s</div>
+        <div class="tl-heading">Zlatá éra — Maybach Zeppelin</div>
+        <div class="tl-text">Model Maybach Zeppelin DS8 s dvanácticilindrový motorem 200 PS byl největší a nejluxusnější německý automobil své doby. Délka přes 5,5 metru, váha přes 3 tuny.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">1941</div>
+        <div class="tl-heading">Konec výroby osobních aut</div>
+        <div class="tl-text">Válka ukončila výrobu luxusních vozidel. Firma přechází výhradně na výrobu průmyslových a vojenských motorů.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2002</div>
+        <div class="tl-heading">Obnova značky Maybach</div>
+        <div class="tl-text">Mercedes-Benz oživuje značku Maybach s modely 57 a 62 (čísla udávají délku v decimetrech). Ceny přes 300 000 eur, extrémní luxus. Projekt byl ale ukončen v roce 2012 kvůli nízkým prodejům.</div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-year">2015</div>
+        <div class="tl-heading">Mercedes-Maybach — nová éra</div>
+        <div class="tl-text">Maybach se vrací jako sub-brand uvnitř Mercedes-Benz. Tentokrát jako prodloužené a maximálně luxusní verze standardních modelů — S-Class, GLS a EQS SUV.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Dnešní modely Maybach</h2>
+    <p class="section-subtitle">Každý model je pohyblivý pokoj první třídy</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">👑</div>
+        <div class="card-title">Maybach S-Class</div>
+        <p>Prodloužená verze S-Class s rozvorem 180 mm navíc. Zadní cestující mají masážní sedadla, minibar, výsuvné opěrky nohou a panoramatickou střechu s osvětlením hvězdné oblohy. Cena od 200 000 eur.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏔️</div>
+        <div class="card-title">Maybach GLS</div>
+        <p>Kombinace luxusu Maybach a prostoru velkého SUV. Čtyřmístný interiér s individuálními sedadly vzadu, panoramatická střecha a výbava jako v soukromém letadle. Motor V8 biturbo se 558 PS.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <div class="card-title">Maybach EQS SUV</div>
+        <p>Plně elektrický luxusní SUV. Dojezd přes 600 km, tichý elektrický pohon jako stvořený pro klidnou jízdu na zadních sedačkách. Nulové emise v maximálním luxusu.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎨</div>
+        <div class="card-title">Maybach Exelero</div>
+        <p>Unikátní one-off supersport z roku 2004 vytvořený pro pneumatikářskou firmu Fulda. V8 biturbo 700 PS, maximální rychlost 351 km/h. Odhadovaná hodnota přes 8 milionů eur.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Co dělá Maybach výjimečným</h2>
+    <p class="section-subtitle">Detaily, které oddělují Maybach od ostatních luxusních aut</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Prvek</th>
+          <th>Popis</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Karoserie</td><td>Prodloužený rozvor, speciální dvoutónové lakování Manufaktur</td></tr>
+        <tr><td>Interiér</td><td>Nappa kůže, pravé dřevěné obklady, křišťálové skleničky Swarovski</td></tr>
+        <tr><td>Sedadla</td><td>Masáže, vyhřívání, větrání, nastavitelná délka sezení, sklopná opěrka nohou</td></tr>
+        <tr><td>Zvuk</td><td>Burmester® 4D prostorový zvukový systém s rezonátory v sedadlech</td></tr>
+        <tr><td>Střecha</td><td>Panoramatická střecha s osvětlením hvězdné oblohy (253 světelných bodů)</td></tr>
+        <tr><td>Klimatizace</td><td>4-zónová klimatizace, ionizátor vzduchu, parfémovací systém</td></tr>
+        <tr><td>Přizpůsobení</td><td>Každý vůz lze plně nakonfigurovat přes designové studio Manufaktur</td></tr>
+      </tbody>
+    </table>
+
+    <blockquote>
+      Maybach není jen automobil. Je to pohyblivý pokoj první třídy — soukromý prostor pro ty, kteří cestují na nejvyšší úrovni.
+      <cite>— Mercedes-Benz Group</cite>
+    </blockquote>
+  </div>
+</section>
+
+<footer>
+  <strong style="color:#aaa;letter-spacing:2px;font-size:0.9rem">MERCEDES-BENZ</strong><br>
+  <span>Školní projekt · Střední škola · 1. ročník IT</span><br><br>
+  <span>© Mercedes-Benz® je registrovaná ochranná známka Mercedes-Benz Group AG. Tato stránka není oficiálním materiálem značky.</span>
+</footer>
+
+<script>
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+</script>
+</body>
+</html>

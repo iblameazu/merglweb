@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMG — Mercedes-Benz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">★ Mercedes-Benz</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="historie.html">Historie</a></li>
+      <li><a href="modely.html">Modely</a></li>
+      <li><a href="technologie.html">Technologie</a></li>
+      <li><a href="amg.html" class="active">AMG</a></li>
+      <li><a href="maybach.html">Maybach</a></li>
+      <li><a href="elektro.html">Elektro</a></li>
+      <li><a href="fakta.html">Fakta</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"       onclick="closeMenu()">Úvod</a>
+    <a href="historie.html"    onclick="closeMenu()">Historie</a>
+    <a href="modely.html"      onclick="closeMenu()">Modely</a>
+    <a href="technologie.html" onclick="closeMenu()">Technologie</a>
+    <a href="amg.html"         onclick="closeMenu()">AMG</a>
+    <a href="maybach.html"     onclick="closeMenu()">Maybach</a>
+    <a href="elektro.html"     onclick="closeMenu()">Elektro</a>
+    <a href="fakta.html"       onclick="closeMenu()">Fakta</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>AMG <span class="badge badge-amg">Racing</span></h1>
+  <p>Závodní a výkonnostní divize Mercedes-Benz. Jeden muž, jeden motor.</p>
+</div>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Historie AMG</h2>
+    <p class="section-subtitle">Aufrecht · Melcher · Großaspach · est. 1967</p>
+
+    <p>AMG founded Hans Werner Aufrecht a Erhard Melcher v roce 1967 v malé garáži v Großaspach. Název AMG pochází z počátečních písmen jejich příjmení a města: <strong>A</strong>ufrecht, <strong>M</strong>elcher, <strong>G</strong>roßaspach. Oba pracovali jako inženýři u Daimler-Benz a fascinoval je závodní sport.</p>
+
+    <p>Začínali skromně — ladili motory pro závodní účely a brzy si vybudovali reputaci. Jejich první velký úspěch přišel v roce 1971 na závodě 24 hodin Spa, kdy vůz AMG s ručně upraveným motorem Mercedes dojel na 1. místě ve své třídě. To byl začátek legendy.</p>
+
+    <p>V roce 1999 koupil Mercedes-Benz většinový podíl a AMG se stalo oficiální výkonnostní a závodní divizí značky. Dnes AMG sídlí v Affalterbach a zaměstnává přes 1 000 lidí.</p>
+
+    <div class="fact-box">
+      <strong>„One man, one engine"</strong> — každý motor AMG ručně sestavuje jeden technik od začátku do konce. Na hotový motor umístí vlastnoruční podpis na kovové plaketě. Je to symbol pýchy, odpovědnosti a řemeslné dokonalosti. Tento přístup je unikátní v celém automobilovém průmyslu.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Modely a motory</h2>
+    <p class="section-subtitle">Výkon, zvuk a adrenalin — to je AMG</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🔴</div>
+        <div class="card-title">V8 Biturbo — srdce AMG</div>
+        <p>4,0l V8 biturbo motor M177 je základem většiny AMG modelů. Ve standardní verzi 585 PS, v ladění S+ až 630 PS. Ručně sestavovaný v Affalterbach, nezaměnitelný burácivý zvuk je záměrně zachován i v hybridních verzích.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <div class="card-title">AMG E PERFORMANCE</div>
+        <p>Hybridní technologie přímo z Formule 1. Elektromotor na zadní nápravě, High-Performance baterie. GT 63 S E PERFORMANCE má systémový výkon 843 PS a sprint 0–100 km/h za 2,9 sekundy.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏎️</div>
+        <div class="card-title">AMG ONE</div>
+        <p>Motor přímo z vozu Formule 1 — 1,6l V6 turbo + 4 elektromotory = 1 063 PS celkového výkonu. Vyroben v pouhých 275 kusech, cena přes 2,7 milionu eur. Nejrychlejší sériový Mercedes všech dob.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚗</div>
+        <div class="card-title">AMG 45 — čtyřválec</div>
+        <p>Nejsilnější sériově vyráběný čtyřválec světa. Motor 2,0l turbo s výkonem 421 PS v modelu A 45 S AMG. Sprint 0–100 za 3,9 sekundy. Přitom vychází z běžné kompaktní třídy A-Class.</p>
+      </div>
+    </div>
+
+    <table style="margin-top:32px">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Motor</th>
+          <th>Výkon</th>
+          <th>0–100 km/h</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>A 45 S AMG</td><td>2,0l turbo 4V</td><td>421 PS</td><td>3,9 s</td></tr>
+        <tr><td>C 63 S AMG</td><td>2,0l turbo hybrid</td><td>680 PS</td><td>3,4 s</td></tr>
+        <tr><td>E 63 S AMG</td><td>4,0l V8 biturbo</td><td>630 PS</td><td>3,4 s</td></tr>
+        <tr><td>GT 63 S E Perf.</td><td>V8 + elektro</td><td>843 PS</td><td>2,9 s</td></tr>
+        <tr><td>AMG ONE</td><td>F1 V6 + 4x elektro</td><td>1 063 PS</td><td>2,9 s</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Formule 1</h2>
+    <p class="section-subtitle">Mercedes-AMG Petronas — nejúspěšnější tým moderní F1</p>
+
+    <p>Mercedes-AMG Petronas Formula One Team je tovární závodní tým Mercedes-Benz. V éře moderních hybridních motorů (od roku 2014) tým dominoval jako žádný jiný v historii tohoto sportu.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🏆</div>
+        <div class="card-title">8 titulů konstruktérů</div>
+        <p>V letech 2014 až 2021 získal tým Mercedes-AMG osm titulů mistra světa konstruktérů v řadě. Absolutní rekord moderní Formule 1.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏁</div>
+        <div class="card-title">Lewis Hamilton</div>
+        <p>Britský závodník Lewis Hamilton získal s týmem Mercedes-AMG sedm titulů mistra světa jezdců. Je jedním z nejúspěšnějších závodníků v historii F1 vůbec.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚙️</div>
+        <div class="card-title">Hybridní motor W06</div>
+        <p>Motor Mercedes-AMG M06 EQ Power+ použitý v dominantní éře F1 kombinoval spalovací motor s MGU-H a MGU-K. Účinnost přes 50 % — daleko předčila klasické motory.</p>
+      </div>
+    </div>
+
+    <blockquote>
+      AMG přeneslo závodní technologie z trati přímo do silničních aut. Každý Mercedes-AMG je trochu závodní vůz.
+      <cite>— Mercedes-AMG GmbH</cite>
+    </blockquote>
+  </div>
+</section>
+
+<footer>
+  <strong style="color:#aaa;letter-spacing:2px;font-size:0.9rem">MERCEDES-BENZ</strong><br>
+  <span>Školní projekt · Střední škola · 1. ročník IT</span><br><br>
+  <span>© Mercedes-Benz® je registrovaná ochranná známka Mercedes-Benz Group AG. Tato stránka není oficiálním materiálem značky.</span>
+</footer>
+
+<script>
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+</script>
+</body>
+</html>

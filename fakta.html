@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fakta — Mercedes-Benz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">★ Mercedes-Benz</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="historie.html">Historie</a></li>
+      <li><a href="modely.html">Modely</a></li>
+      <li><a href="technologie.html">Technologie</a></li>
+      <li><a href="amg.html">AMG</a></li>
+      <li><a href="maybach.html">Maybach</a></li>
+      <li><a href="elektro.html">Elektro</a></li>
+      <li><a href="fakta.html" class="active">Fakta</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"       onclick="closeMenu()">Úvod</a>
+    <a href="historie.html"    onclick="closeMenu()">Historie</a>
+    <a href="modely.html"      onclick="closeMenu()">Modely</a>
+    <a href="technologie.html" onclick="closeMenu()">Technologie</a>
+    <a href="amg.html"         onclick="closeMenu()">AMG</a>
+    <a href="maybach.html"     onclick="closeMenu()">Maybach</a>
+    <a href="elektro.html"     onclick="closeMenu()">Elektro</a>
+    <a href="fakta.html"       onclick="closeMenu()">Fakta</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Zajímavosti a fakta</h1>
+  <p>Věci, které o Mercedes-Benz možná nevíte. Kuriozity, rekordy a zajímavé příběhy.</p>
+</div>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Zajímavosti</h2>
+    <p class="section-subtitle">Příběhy a fakta, která tě možná překvapí</p>
+
+    <div class="fact-box">
+      <strong>Tříhvězdičkový symbol</strong> — hvězda se třemi paprsky symbolizuje dominanci motorizace ve třech živlech: na zemi, na vodě a ve vzduchu. Gottlieb Daimler viděl svůj motor jako pohon pro auta, lodě i vzducholodě. Symbol se stal jedním z nejznámějších log světa.
+    </div>
+
+    <div class="fact-box">
+      <strong>Nejdražší Mercedes v historii</strong> — Mercedes-Benz 300 SLR Uhlenhaut Coupé z roku 1955 se v roce 2022 prodal v aukci za 135 milionů eur. Existují pouze dva kusy. Šlo o závodní vůz s motorem z F1, který nikdy nebyl určen pro veřejný prodej.
+    </div>
+
+    <div class="fact-box">
+      <strong>Jméno, které nevymyslela automobilka</strong> — Jméno „Mercedes" vymyslel zákazník. Rakouský obchodník Emil Jellinek pojmenoval nový vůz po své dceři Mercedes Jellinek. Jméno se zalíbilo a z přezdívky se stala jedna z nejslavnějších světových značek.
+    </div>
+
+    <div class="fact-box">
+      <strong>Mercedes a papamobil</strong> — Vatikán používá pro přesuny papeže speciálně upravené Mercedessy s průhlednou ochrannou kabinou. Mercedes-Benz je také největším dodavatelem sanitních vozidel v Evropě a vyrábí obrněné vozy pro státní bezpečnost po celém světě.
+    </div>
+
+    <div class="fact-box">
+      <strong>G-Class — nejdéle vyráběný model</strong> — G-Class (G-Wagen) se vyrábí nepřetržitě od roku 1979 až do dnes. Původně byl vyvinut jako vojenský terénní vůz pro armádu. Základ konstrukce (pevný rám, portálové nápravy) se zachoval až do dnešní generace, i když interiér prošel kompletní modernizací.
+    </div>
+
+    <div class="fact-box">
+      <strong>Mercedes v ČR</strong> — V České republice působí Mercedes-Benz přes desítky dealerství. Praha je jedním z center pro Mercedes-Benz Financial Services. Nejoblíbenější modely u českých zákazníků jsou C-Class, GLC a E-Class.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Mercedes-Benz v číslech</h2>
+    <p class="section-subtitle">Klíčové statistiky a rekordy značky</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Údaj</th>
+          <th>Hodnota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Rok prvního patentu</td><td>1886</td></tr>
+        <tr><td>Roční prodeje (2023)</td><td>cca 2,4 milionu vozů</td></tr>
+        <tr><td>Počet zaměstnanců</td><td>cca 153 000</td></tr>
+        <tr><td>Roční tržby</td><td>cca 153 miliard eur</td></tr>
+        <tr><td>Počet zemí prodeje</td><td>170+</td></tr>
+        <tr><td>Tituly F1 (2014–2021)</td><td>8 konstruktérských v řadě</td></tr>
+        <tr><td>Nejdražší prodaný model</td><td>300 SLR — 135 mil. eur (2022)</td></tr>
+        <tr><td>Nejdéle vyráběný model</td><td>G-Class — od roku 1979 dosud</td></tr>
+        <tr><td>Nejlepší aerodynamika</td><td>EQS — Cd 0,20</td></tr>
+        <tr><td>Nejrychlejší sériový model</td><td>AMG ONE — 352 km/h</td></tr>
+      </tbody>
+    </table>
+
+    <blockquote>
+      Gottlieb Daimler kdysi napsal svému synovi: „Toto auto bude mít budoucnost." Měl pravdu.
+      <cite>— Z kroniky Daimler-Benz AG</cite>
+    </blockquote>
+
+    <div class="project-note">
+      <strong>O tomto projektu</strong>
+      Tato webová stránka je školní projekt — 1. ročník střední školy, obor IT. Obsahuje informace o historii, modelech, technologiích, AMG, Maybach a elektromobilitě značky Mercedes-Benz. Veškeré ochranné známky náleží Mercedes-Benz Group AG. Stránka je nekomerční a vzdělávací.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong style="color:#aaa;letter-spacing:2px;font-size:0.9rem">MERCEDES-BENZ</strong><br>
+  <span>Školní projekt · Střední škola · 1. ročník IT</span><br><br>
+  <span>© Mercedes-Benz® je registrovaná ochranná známka Mercedes-Benz Group AG. Tato stránka není oficiálním materiálem značky.</span>
+</footer>
+
+<script>
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+</script>
+</body>
+</html>

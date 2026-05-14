@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mercedes-Benz — Školní Projekt</title>
+  <link href="R:\verejne_ucitele\projekt\style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">★ Mercedes-Benz</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Úvod</a></li>
+      <li><a href="historie.html">Historie</a></li>
+      <li><a href="modely.html">Modely</a></li>
+      <li><a href="technologie.html">Technologie</a></li>
+      <li><a href="amg.html">AMG</a></li>
+      <li><a href="maybach.html">Maybach</a></li>
+      <li><a href="elektro.html">Elektro</a></li>
+      <li><a href="fakta.html">Fakta</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"       onclick="closeMenu()">Úvod</a>
+    <a href="historie.html"    onclick="closeMenu()">Historie</a>
+    <a href="modely.html"      onclick="closeMenu()">Modely</a>
+    <a href="technologie.html" onclick="closeMenu()">Technologie</a>
+    <a href="amg.html"         onclick="closeMenu()">AMG</a>
+    <a href="maybach.html"     onclick="closeMenu()">Maybach</a>
+    <a href="elektro.html"     onclick="closeMenu()">Elektro</a>
+    <a href="fakta.html"       onclick="closeMenu()">Fakta</a>
+  </div>
+</nav>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">O projektu</h2>
+    <p class="section-subtitle">Co na těchto stránkách najdeš</p>
+
+    <p>Tato webová stránka je celoletní školní projekt zaměřený na automobilovou značku <strong>Mercedes-Benz</strong>. Projekt je rozdělen do několika samostatných stránek, každá se věnuje jinému tématu.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">📅</div>
+        <div class="card-title"><a href="historie.html" style="color:#222;text-decoration:none">Historie</a></div>
+        <p>Od prvního patentu Carla Benze v roce 1886 až po moderní éru elektromobility. Klíčové milníky značky.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚗</div>
+        <div class="card-title"><a href="modely.html" style="color:#222;text-decoration:none">Modely</a></div>
+        <p>Přehled modelové řady — od kompaktní A-Class přes populární C a E-Class až po vlajkový S-Class a terénní G-Class.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚙️</div>
+        <div class="card-title"><a href="technologie.html" style="color:#222;text-decoration:none">Technologie</a></div>
+        <p>Inovace, které Mercedes-Benz přinesl světu — ABS, ESP, deformační zóny, MBUX a autonomní řízení Level 3.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔴</div>
+        <div class="card-title"><a href="amg.html" style="color:#222;text-decoration:none">AMG</a></div>
+        <p>Závodní a výkonnostní divize Mercedes-Benz. Historie AMG, ikonické motory a úspěchy ve Formuli 1.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">👑</div>
+        <div class="card-title"><a href="maybach.html" style="color:#222;text-decoration:none">Maybach</a></div>
+        <p>Ultra-luxusní sub-brand Mercedes-Maybach. Historie značky Maybach a dnešní modely pro nejnáročnější zákazníky.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <div class="card-title"><a href="elektro.html" style="color:#222;text-decoration:none">Elektro (EQ)</a></div>
+        <p>Elektrická budoucnost Mercedes-Benz. Rodina EQ modelů, investice do elektromobility a cíl uhlíkové neutrality.</p>
+      </div>
+    </div>
+
+    <blockquote>
+      „Das Beste oder nichts." — To nejlepší nebo nic.
+      <cite>— Carl Benz</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Stručný přehled</h2>
+    <p class="section-subtitle">Základní fakta o značce Mercedes-Benz</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Údaj</th>
+          <th>Hodnota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Plný název</td><td>Mercedes-Benz Group AG</td></tr>
+        <tr><td>Sídlo</td><td>Stuttgart, Německo</td></tr>
+        <tr><td>Rok vzniku</td><td>1926 (sloučení Daimler + Benz)</td></tr>
+        <tr><td>První patent</td><td>1886 — Benz Patent-Motorwagen</td></tr>
+        <tr><td>Roční prodeje</td><td>cca 2,4 milionu vozů</td></tr>
+        <tr><td>Zaměstnanci</td><td>cca 153 000</td></tr>
+        <tr><td>Roční tržby</td><td>cca 153 miliard eur</td></tr>
+        <tr><td>Motto</td><td>Das Beste oder nichts</td></tr>
+      </tbody>
+    </table>
+
+    <div class="project-note">
+      <strong>O tomto projektu</strong>
+      Školní projekt · Střední škola · 1. ročník IT · Nekomerční a vzdělávací účely.
+      Veškeré ochranné známky náleží Mercedes-Benz Group AG.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong style="color:#aaa;letter-spacing:2px;font-size:0.9rem">MERCEDES-BENZ</strong><br>
+  <span>Školní projekt · Střední škola · 1. ročník IT</span><br><br>
+  <span>© Mercedes-Benz® je registrovaná ochranná známka Mercedes-Benz Group AG. Tato stránka není oficiálním materiálem značky.</span>
+</footer>
+
+<script>
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+</script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elektro — Mercedes-Benz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">★ Mercedes-Benz</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="historie.html">Historie</a></li>
+      <li><a href="modely.html">Modely</a></li>
+      <li><a href="technologie.html">Technologie</a></li>
+      <li><a href="amg.html">AMG</a></li>
+      <li><a href="maybach.html">Maybach</a></li>
+      <li><a href="elektro.html" class="active">Elektro</a></li>
+      <li><a href="fakta.html">Fakta</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"       onclick="closeMenu()">Úvod</a>
+    <a href="historie.html"    onclick="closeMenu()">Historie</a>
+    <a href="modely.html"      onclick="closeMenu()">Modely</a>
+    <a href="technologie.html" onclick="closeMenu()">Technologie</a>
+    <a href="amg.html"         onclick="closeMenu()">AMG</a>
+    <a href="maybach.html"     onclick="closeMenu()">Maybach</a>
+    <a href="elektro.html"     onclick="closeMenu()">Elektro</a>
+    <a href="fakta.html"       onclick="closeMenu()">Fakta</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Elektromobilita <span class="badge badge-eq">EQ</span></h1>
+  <p>Mercedes-Benz a jeho cesta k bezemisní budoucnosti. Investice, modely a plány do roku 2030.</p>
+</div>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Strategie EQ</h2>
+    <p class="section-subtitle">Jak Mercedes-Benz plánuje elektrifikaci svého portfolia</p>
+
+    <div class="numbers">
+      <div class="num-item">
+        <div class="num-val">40 mld. €</div>
+        <div class="num-lbl">Investice 2022–2026</div>
+      </div>
+      <div class="num-item">
+        <div class="num-val">770 km</div>
+        <div class="num-lbl">Dojezd EQS</div>
+      </div>
+      <div class="num-item">
+        <div class="num-val">200 kW</div>
+        <div class="num-lbl">Rychlé nabíjení</div>
+      </div>
+      <div class="num-item">
+        <div class="num-val">2030</div>
+        <div class="num-lbl">Cíl plné elektr.</div>
+      </div>
+    </div>
+
+    <p>Mercedes-Benz investuje desítky miliard eur do elektrifikace celého portfolia. Značka EQ zastřešuje všechny plně elektrické modely. Cílem je stát se do roku 2030 „ready to go all-electric" — plně elektrickou značkou všude tam, kde to trh umožní.</p>
+
+    <p>Každý segment modelové řady dostane svůj elektrický protějšek — EQA pro kompaktní segment, EQC pro střední SUV, EQE pro střední třídu a EQS jako vlajkový elektrický sedan.</p>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Modely EQ</h2>
+    <p class="section-subtitle">Přehled elektrických vozidel Mercedes-Benz</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🚗</div>
+        <div class="card-title">EQS — vlajkový elektrický sedan</div>
+        <p>Elektrická obdoba S-Class. Dojezd až 770 km (WLTP), aerodynamický koeficient Cd 0,20 — nejnižší hodnota u sériového auta světa. MBUX Hyperscreen přes celou palubní desku. Dostupný také jako SUV — EQS SUV.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚙</div>
+        <div class="card-title">EQE — elektrická střední třída</div>
+        <p>Elektrická obdoba E-Class. Dojezd přes 600 km, sdílí platformu MB.EA s dalšími elektrickými modely. Dostupný jako sedan i SUV. AMG verze EQE 53 AMG má přes 700 PS.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚘</div>
+        <div class="card-title">EQC / EQA / EQB</div>
+        <p>Kompaktní a středně velké elektrické SUV. EQA vychází z platformy GLA, EQC z GLC. Dojezd 350–500 km. Ideální pro každodenní provoz ve městě i na delší trasy.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚐</div>
+        <div class="card-title">eSprinter / eCitan</div>
+        <p>Elektrické dodávky pro firemní zákazníky. eSprinter nabídne dojezd přes 300 km a je vhodný pro logistiku v městských oblastech. eCitan je kompaktnější alternativa pro dodávky na poslední míli.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Udržitelnost a výroba</h2>
+    <p class="section-subtitle">Jak Mercedes-Benz přistupuje k životnímu prostředí</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🌿</div>
+        <div class="card-title">Factory 56 — uhlíkově neutrální</div>
+        <p>Továrna v Sindelfingen (Factory 56) funguje uhlíkově neutrálně od roku 2022. Solární panely na střeše, 100% obnovitelná energie, recyklace výrobního odpadu a uzavřený vodní okruh.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔋</div>
+        <div class="card-title">Druhý život baterií</div>
+        <p>Použité baterie z elektromobilů dostávají druhý život jako stacionární energetická úložiště. Pomáhají vyrovnávat výkyvy ve spotřebě elektřiny v síti a přispívají k zásobování obnovitelnou energií.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">♻️</div>
+        <div class="card-title">Recyklace a materiály</div>
+        <p>Mercedes-Benz pracuje na využití recyklovaných materiálů v interiéru vozidel. Koberce z recyklovaného PET, dřevěné obklady z udržitelných zdrojů a snaha o snížení uhlíkové stopy celého životního cyklu vozidla.</p>
+      </div>
+    </div>
+
+    <blockquote>
+      „Vynálezce automobilu znovu vynalézá automobil." Elektrická éra neznamená kompromis — znamená více výkonu, více luxusu a méně emisí.
+      <cite>— Ola Källenius, CEO Mercedes-Benz Group AG</cite>
+    </blockquote>
+
+    <table style="margin-top:16px">
+      <thead>
+        <tr>
+          <th>Model EQ</th>
+          <th>Dojezd (WLTP)</th>
+          <th>Výkon</th>
+          <th>Nabíjení DC</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>EQA 250</td><td>426 km</td><td>190 PS</td><td>100 kW</td></tr>
+        <tr><td>EQC 400</td><td>412 km</td><td>408 PS</td><td>110 kW</td></tr>
+        <tr><td>EQE 350</td><td>654 km</td><td>292 PS</td><td>170 kW</td></tr>
+        <tr><td>EQS 450+</td><td>770 km</td><td>360 PS</td><td>200 kW</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <strong style="color:#aaa;letter-spacing:2px;font-size:0.9rem">MERCEDES-BENZ</strong><br>
+  <span>Školní projekt · Střední škola · 1. ročník IT</span><br><br>
+  <span>© Mercedes-Benz® je registrovaná ochranná známka Mercedes-Benz Group AG. Tato stránka není oficiálním materiálem značky.</span>
+</footer>
+
+<script>
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+</script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Historie — Mercedes-Benz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">★ Mercedes-Benz</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="historie.html" class="active">Historie</a></li>
+      <li><a href="modely.html">Modely</a></li>
+      <li><a href="technologie.html">Technologie</a></li>
+      <li><a href="amg.html">AMG</a></li>
+      <li><a href="maybach.html">Maybach</a></li>
+      <li><a href="elektro.html">Elektro</a></li>
+      <li><a href="fakta.html">Fakta</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"       onclick="closeMenu()">Úvod</a>
+    <a href="historie.html"    onclick="closeMenu()">Historie</a>
+    <a href="modely.html"      onclick="closeMenu()">Modely</a>
+    <a href="technologie.html" onclick="closeMenu()">Technologie</a>
+    <a href="amg.html"         onclick="closeMenu()">AMG</a>
+    <a href="maybach.html"     onclick="closeMenu()">Maybach</a>
+    <a href="elektro.html"     onclick="closeMenu()">Elektro</a>
+    <a href="fakta.html"       onclick="closeMenu()">Fakta</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Historie</h1>
+  <p>Od prvního automobilu světa až po dnešní elektromobily — více než 138 let inovací.</p>
+</div>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Časová osa</h2>
+    <p class="section-subtitle">Klíčové milníky v historii Mercedes-Benz</p>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-year">1885 – 1886</div>
+        <div class="tl-heading">Benz Patent-Motorwagen — první automobil světa</div>
+        <div class="tl-text">Carl Benz zkonstruoval tříkolové vozidlo poháněné jednocilindrový spalovacím motorem. Výkon byl asi 0,75 koňské síly a maximální rychlost okolo 16 km/h. Dne 29. ledna 1886 byl zaregistrován patent č. 37435 — tento den je považován za datum zrození automobilu.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-year">1888</div>
+        <div class="tl-heading">Bertha Benz — první dálková jízda</div>
+        <div class="tl-text">Manželka Carla Benze, Bertha, podnikla bez vědomí manžela první dálkovou jízdu automobilem v historii. Se svými dvěma syny ujela 106 km z Mannheimu do Pforzheimu. Cestou řešila poruchy: ucpanou trubku čistila jehlou od klobouku a izolaci opravila podvazkem. Tato jízda přinesla Benzovi velkou publicitu.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-year">1900 – 1901</div>
+        <div class="tl-heading">Jméno Mercedes</div>
+        <div class="tl-text">Gottlieb Daimler zemřel v roce 1900. Jeho firma pokračovala dál a postavila nový výkonný vůz. Zákazník Emil Jellinek navrhl pojmenovat ho po své dceři Mercedes. Vůz Mercedes 35 PS z roku 1901 je považován za první moderní automobil — měl nízký střed těžiště a výkonný motor.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-year">1926</div>
+        <div class="tl-heading">Vznik Daimler-Benz AG</div>
+        <div class="tl-text">Po první světové válce a hospodářské krizi se sloučily firmy Daimler-Motoren-Gesellschaft a Benz & Cie. Vznikla Daimler-Benz AG a rodina modelů dostala název Mercedes-Benz. Slavné stříbrné závodní vozy zvané Silberpfeil (Stříbrný šíp) začaly dominovat závodním tratím.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-year">1954</div>
+        <div class="tl-heading">300 SL — Křídlová dvířka</div>
+        <div class="tl-text">Mercedes-Benz 300 SL Gullwing se stal ikonou doby. Charakteristická křídlová dvířka vznikla kvůli prostorové konstrukci rámu — nebylo možné je otevírat klasicky. Auto mělo přímé vstřikování paliva a maximální rychlost 260 km/h. Dodnes je považováno za jedno z nejkrásnějších aut všech dob.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-year">1967</div>
+        <div class="tl-heading">Zrození AMG</div>
+        <div class="tl-text">Hans Werner Aufrecht a Erhard Melcher zakládají v Großaspach malou firmu na ladění motorů Mercedes-Benz. Ze závodní garáže vyrostl postupně světový výrobce supersportovních automobilů. V roce 1999 se AMG stalo součástí skupiny Mercedes-Benz.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-year">1998 – 2007</div>
+        <div class="tl-heading">DaimlerChrysler — krátká odbočka</div>
+        <div class="tl-text">Mercedes-Benz (tehdy Daimler-Benz) se sloučil s americkým Chryslerem. Fúze se ale ukázala jako kulturně nekompatibilní a v roce 2007 se cesty opět rozdělily. Daimler AG se soustředil zpět na prémiové segmenty.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-year">2021</div>
+        <div class="tl-heading">Mercedes-Benz Group AG</div>
+        <div class="tl-text">Společnost Daimler AG se přejmenovala na Mercedes-Benz Group AG. Začala nová éra elektromobility a digitalizace. Cílem je stát se do roku 2030 plně elektrickou značkou tam, kde to trh umožní.</div>
+      </div>
+    </div>
+
+    <blockquote>
+      Gottlieb Daimler kdysi napsal svému synovi: „Toto auto bude mít budoucnost." Měl pravdu.
+      <cite>— Z kroniky Daimler-Benz AG</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Symbol tří paprsků</h2>
+    <p class="section-subtitle">Co znamená hvězda Mercedes-Benz</p>
+
+    <p>Tříhvězdičkový symbol — hvězda se třemi paprsky — je jedním z nejznámějších log světa. Symbolizuje dominanci motorizace ve třech živlech: na <strong>zemi</strong>, na <strong>vodě</strong> a ve <strong>vzduchu</strong>.</p>
+
+    <p>Gottlieb Daimler měl velkou vizi — jeho motor měl pohánět nejen automobily, ale i lodě a vzducholodě. Motory Daimler skutečně létaly v prvních Zeppelinech a závodily na závodních tratích. Symbol tří paprsků tuto vizi připomíná dodnes.</p>
+
+    <div class="fact-box">
+      <strong>Věděl jsi?</strong> — Logo Mercedes-Benz nebylo od začátku hvězda. Původně firma používala různá loga a hvězda se třemi paprsky se začala používat až po sloučení Daimler a Benz v roce 1926. Dnes je to jeden z nejvíce ceněných a rozpoznatelných symbolů automobilového průmyslu.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong style="color:#aaa;letter-spacing:2px;font-size:0.9rem">MERCEDES-BENZ</strong><br>
+  <span>Školní projekt · Střední škola · 1. ročník IT</span><br><br>
+  <span>© Mercedes-Benz® je registrovaná ochranná známka Mercedes-Benz Group AG. Tato stránka není oficiálním materiálem značky.</span>
+</footer>
+
+<script>
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+</script>
+</body>
+</html>

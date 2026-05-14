@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technologie — Mercedes-Benz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">★ Mercedes-Benz</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="historie.html">Historie</a></li>
+      <li><a href="modely.html">Modely</a></li>
+      <li><a href="technologie.html" class="active">Technologie</a></li>
+      <li><a href="amg.html">AMG</a></li>
+      <li><a href="maybach.html">Maybach</a></li>
+      <li><a href="elektro.html">Elektro</a></li>
+      <li><a href="fakta.html">Fakta</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"       onclick="closeMenu()">Úvod</a>
+    <a href="historie.html"    onclick="closeMenu()">Historie</a>
+    <a href="modely.html"      onclick="closeMenu()">Modely</a>
+    <a href="technologie.html" onclick="closeMenu()">Technologie</a>
+    <a href="amg.html"         onclick="closeMenu()">AMG</a>
+    <a href="maybach.html"     onclick="closeMenu()">Maybach</a>
+    <a href="elektro.html"     onclick="closeMenu()">Elektro</a>
+    <a href="fakta.html"       onclick="closeMenu()">Fakta</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Technologie</h1>
+  <p>Mercedes-Benz stál u zrodu mnoha inovací, které dnes používají všechna auta světa.</p>
+</div>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Bezpečnostní technologie</h2>
+    <p class="section-subtitle">Mercedes-Benz zachránil miliony životů svými inovacemi</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🛡️</div>
+        <div class="card-title">Deformační zóny</div>
+        <p>Inženýr Béla Barényi vynalezl v 50. letech deformační zóny karoserie. Části auta absorbují energii při nárazu a chrání posádku. Tento princip dnes povinně používají všechna auta světa.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚙️</div>
+        <div class="card-title">ABS</div>
+        <p>Protiblokovací systém ABS byl zpopularizován Mercedesem S-Class v roce 1978. Zabraňuje zablokování kol při prudkém brzdění a zachovává řiditelnost vozidla. Odhaduje se, že ABS zachránilo miliony životů.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔄</div>
+        <div class="card-title">ESP</div>
+        <p>Elektronický stabilizační program (ESP) přišel v roce 1995 ze Stuttgartu. Zabraňuje smýkání vozidla při průjezdu zatáčkou nebo na kluzkém povrchu. Od roku 2014 je ESP povinné ve všech nových autech prodávaných v EU.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚠️</div>
+        <div class="card-title">PRE-SAFE</div>
+        <p>Systém PRE-SAFE detekuje hrozící nehodu a předpřipraví vozidlo i posádku ještě před nárazem — napne pásy, zavře okna, nastaví sedadla do optimální polohy. Čas reakce kratší než desetina sekundy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Digitální technologie</h2>
+    <p class="section-subtitle">Budoucnost je uvnitř — interiér jako ovládací centrum</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🖥️</div>
+        <div class="card-title">MBUX</div>
+        <p>Mercedes-Benz User Experience — AI systém ovládaný hlasem „Hey Mercedes". Rozumí přirozenému jazyku a ovládá téměř vše v autě. Nejnovější verze Hyperscreen zabírá celou palubní desku — 141 cm OLED.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤖</div>
+        <div class="card-title">Drive Pilot — Level 3</div>
+        <p>Mercedes jako první automobilka získal certifikaci pro autonomní řízení Level 3 v Německu a USA. Řidič může za určitých podmínek pustit volant a věnovat se jiné činnosti — sledovat film nebo pracovat.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📱</div>
+        <div class="card-title">Over-the-air aktualizace</div>
+        <p>Moderní vozy lze aktualizovat přes vzduch jako chytrý telefon. Nové funkce, bezpečnostní opravy a vylepšení přijdou automaticky přes internet bez návštěvy servisu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Přehled klíčových vynálezů</h2>
+    <p class="section-subtitle">Inovace, které změnily automobilový průmysl</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Rok</th>
+          <th>Vynález / inovace</th>
+          <th>Význam</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1886</td><td>Benz Patent-Motorwagen</td><td>První automobil na světě</td></tr>
+        <tr><td>1954</td><td>Přímé vstřikování benzínu</td><td>Více výkonu, méně spotřeby</td></tr>
+        <tr><td>1959</td><td>Deformační zóny (Barényi)</td><td>Základ moderní bezpečnosti</td></tr>
+        <tr><td>1972</td><td>Airmatic vzduchové odpružení</td><td>Komfort i dynamika zároveň</td></tr>
+        <tr><td>1978</td><td>ABS v osobních autech</td><td>Zachránilo miliony životů</td></tr>
+        <tr><td>1995</td><td>ESP — stabilizace jízdní dráhy</td><td>Povinné v EU od roku 2014</td></tr>
+        <tr><td>1998</td><td>DISTRONIC (adaptivní tempomat)</td><td>Předchůdce autonomního řízení</td></tr>
+        <tr><td>2006</td><td>PRE-SAFE prediktivní bezpečnost</td><td>Auto předvídá nehodu a reaguje</td></tr>
+        <tr><td>2018</td><td>MBUX AI infotainment</td><td>Revoluce v ovládání auta</td></tr>
+        <tr><td>2022</td><td>Drive Pilot Level 3</td><td>První legální autonomní řízení</td></tr>
+      </tbody>
+    </table>
+
+    <blockquote>
+      „Vynálezce automobilu znovu vynalézá automobil."
+      <cite>— Slogan Mercedes-Benz pro EQ modely</cite>
+    </blockquote>
+  </div>
+</section>
+
+<footer>
+  <strong style="color:#aaa;letter-spacing:2px;font-size:0.9rem">MERCEDES-BENZ</strong><br>
+  <span>Školní projekt · Střední škola · 1. ročník IT</span><br><br>
+  <span>© Mercedes-Benz® je registrovaná ochranná známka Mercedes-Benz Group AG. Tato stránka není oficiálním materiálem značky.</span>
+</footer>
+
+<script>
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+</script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modely — Mercedes-Benz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">★ Mercedes-Benz</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Úvod</a></li>
+      <li><a href="historie.html">Historie</a></li>
+      <li><a href="modely.html" class="active">Modely</a></li>
+      <li><a href="technologie.html">Technologie</a></li>
+      <li><a href="amg.html">AMG</a></li>
+      <li><a href="maybach.html">Maybach</a></li>
+      <li><a href="elektro.html">Elektro</a></li>
+      <li><a href="fakta.html">Fakta</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html"       onclick="closeMenu()">Úvod</a>
+    <a href="historie.html"    onclick="closeMenu()">Historie</a>
+    <a href="modely.html"      onclick="closeMenu()">Modely</a>
+    <a href="technologie.html" onclick="closeMenu()">Technologie</a>
+    <a href="amg.html"         onclick="closeMenu()">AMG</a>
+    <a href="maybach.html"     onclick="closeMenu()">Maybach</a>
+    <a href="elektro.html"     onclick="closeMenu()">Elektro</a>
+    <a href="fakta.html"       onclick="closeMenu()">Fakta</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Modely</h1>
+  <p>Mercedes-Benz nabízí jednu z nejširších produktových řad v automobilovém průmyslu.</p>
+</div>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Sedany a kupé</h2>
+    <p class="section-subtitle">Klasické modely, na kterých stojí pověst značky</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🚗</div>
+        <div class="card-title">A-Class / CLA</div>
+        <p>Nejmenší modely značky. Moderní design, digitální interiér MBUX a dostupné hybridní motory. Ideální do města i na dálnici. Výkon od 163 PS.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚘</div>
+        <div class="card-title">C-Class</div>
+        <p>Nejprodávanější Mercedes. Dostupný jako sedan nebo kombi. Šestá generace (W206) přišla v roce 2021 s hybridní technologií a velkým OLED displejem v interiéru.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚙</div>
+        <div class="card-title">E-Class</div>
+        <p>Vyšší střední třída. K dispozici jako sedan, kombi, kupé nebo kabriolet. Plug-in hybridní verze, semiautonomní řízení a luxusní výbava standardem.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">👑</div>
+        <div class="card-title">S-Class</div>
+        <p>Vlajkový model. Synonymum luxusu a technologií. MBUX Hyperscreen 141 cm, masážní sedadla, vzduchové odpružení AIRMATIC a autonomní řízení Level 3.</p>
+      </div>
+    </div>
+
+    <table style="margin-top:32px">
+      <thead>
+        <tr>
+          <th>Model</th>
+          <th>Výkon (základ)</th>
+          <th>0–100 km/h</th>
+          <th>Vmax</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>A 180</td><td>136 PS</td><td>8,9 s</td><td>222 km/h</td></tr>
+        <tr><td>C 200</td><td>204 PS</td><td>7,3 s</td><td>250 km/h</td></tr>
+        <tr><td>E 200</td><td>204 PS</td><td>7,5 s</td><td>250 km/h</td></tr>
+        <tr><td>S 400d</td><td>330 PS</td><td>5,4 s</td><td>250 km/h</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">SUV a terénní vozy</h2>
+    <p class="section-subtitle">Vozy pro každý terén i každodenní použití</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🚙</div>
+        <div class="card-title">GLA / GLB / GLC</div>
+        <p>Trojice kompaktních SUV pokrývající celou šíři trhu. GLB nabídne volitelnou třetí řadu sedadel. GLC patří mezi nejprodávanější modely značky celosvětově.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛻</div>
+        <div class="card-title">GLE / GLS</div>
+        <p>Velkorysá SUV pro rodiny i podnikatele. GLS nabídne třetí řadu sedadel a výbavu srovnatelnou s S-Class. Dostupné jako plug-in hybrid s elektrickým dojezdem přes 100 km.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏔️</div>
+        <div class="card-title">G-Class (G-Wagen)</div>
+        <p>Původně vojenský terénní vůz z roku 1979, dnes nejluxusnější off-roader světa. Tři uzávěrky diferenciálů, pevný rám, nezaměnitelný hranatý design. AMG verze G 63 má 585 PS.</p>
+      </div>
+    </div>
+
+    <blockquote>
+      G-Class se vyrábí od roku 1979 a jeho základ se nezměnil — je to jeden z nejdéle vyráběných modelů v historii automobilového průmyslu.
+      <cite>— Mercedes-Benz Group</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <h2 class="section-title">Sportovní vozy</h2>
+    <p class="section-subtitle">Pro ty, kteří chtějí víc než jen přepravu z bodu A do bodu B</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🏎️</div>
+        <div class="card-title">SL-Class</div>
+        <p>Kultovní roadster. Nová generace (R232) z roku 2022 má pevnou střechu, 4MATIC+ pohon a V8 biturbo motor. Výkon 476 PS v základu, sprint 0–100 za 4,1 s.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <div class="card-title">AMG GT</div>
+        <p>Čistě sportovní vůz vycházející přímo z AMG divize. Dostupný jako kupé nebo roadster, biturbo V8, výkon přes 557 PS. Závodní DNA pro každodenní provoz.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🏁</div>
+        <div class="card-title">AMG ONE</div>
+        <p>Hypercar s motorem z Formule 1. Celkový výkon 1 063 PS, sprint 0–100 za 2,9 s, maximální rychlost 352 km/h. Vyroben v 275 kusech, cena přes 2,7 milionu eur.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong style="color:#aaa;letter-spacing:2px;font-size:0.9rem">MERCEDES-BENZ</strong><br>
+  <span>Školní projekt · Střední škola · 1. ročník IT</span><br><br>
+  <span>© Mercedes-Benz® je registrovaná ochranná známka Mercedes-Benz Group AG. Tato stránka není oficiálním materiálem značky.</span>
+</footer>
+
+<script>
+  function toggleMenu() { document.getElementById('mobileMenu').classList.toggle('open'); }
+  function closeMenu()  { document.getElementById('mobileMenu').classList.remove('open'); }
+</script>
+</body>
+</html>
